@@ -114,6 +114,7 @@ export default class AccessibilityTranslator extends React.Component {
         top: `${posParentSpace.y}px`,
         width: `${posParentSpace.width}px`,
         height: `${posParentSpace.height}px`,
+        transform: `rotate(${displayObject.rotation}deg)`,
         margin: 0,
         padding: 0,
       },

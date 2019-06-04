@@ -5,7 +5,7 @@
   "main": "dist/createjs-accessibility.js",
   "scripts": {
     "build": "rm -rf dist && NODE_ENV=production webpack",
-    "start": "rm -rf dist && NODE_ENV=development webpack",
+    "start": "rm -rf dist && NODE_ENV=development webpack --mode=development",
     "clobber": "rm -rf node_modules/ && npm cache clean --force"
   },
   "files": [
